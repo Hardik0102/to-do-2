@@ -1,0 +1,109 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  background: linear-gradient(100deg,rgb(13, 61, 79),#715792);
+  width: auto;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #ccc;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-section {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:beige;
+  padding-left:30px ;
+  border-radius:30px ;
+  margin-bottom: 25px;
+  
+}
+
+.input-section input {
+
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+ 
+}
+
+.input-section button {
+
+    border: none;
+    outline: none;
+    padding: 16px 30px;
+    background:rgb(207, 95, 24);
+    color: antiquewhite;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 30px; 
+  /* padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task button {
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: rgb(190, 46, 36);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options button {
+  padding: 5px 10px;
+  background-color: #3a880e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#D1{
+  border-radius: 15px;
+  background-color: rgb(63, 174, 63);
+}
+#D2{
+  border-radius: 15px;
+  background-color: #d70000;
+}
+
